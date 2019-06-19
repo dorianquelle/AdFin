@@ -1,0 +1,12 @@
+Package: AdFin
+Type: Package
+Title: Calculates Option prices
+Version: 0.1.0
+Author: Dorian Quelle
+Maintainer: The package maintainer <d.quelle@zeppelin-university.net>
+Description: Calculates various option prices.
+    Options which are supported are: -European (Put and Call), - Asian(Put and Call), American(Bermudan) (Put)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
