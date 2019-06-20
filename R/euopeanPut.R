@@ -3,7 +3,7 @@ european <- function(numsim=1000,Spot =  100,Strike = 95,
   GBM <- matrix(NA, nrow = (t), ncol = numsim)
   p <- progress_estimated(numsim)
   for(i in 1:numsim){
-    GBM[,i] <-  exp( (r  - 0.5 * sigma^2) * (1/(m)) + (sigma * (sqrt(1/(t))) * rnorm(t, mean = 0, sd = 1)))
+    GBM[,i] <-  exp( (r  - 0.5 * sigma^2) * (1/(t)) + (sigma * (sqrt(1/(t))) * rnorm(t, mean = 0, sd = 1)))
     if(silent == F) print(p$tick())
   }
   if(silent == F) print(p)

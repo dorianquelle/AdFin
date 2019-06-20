@@ -9,4 +9,7 @@ Description: Calculates various option prices.
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8
+Imports:
+    dplyr,
+    tidyverse
 LazyData: true
