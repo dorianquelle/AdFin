@@ -1,6 +1,5 @@
 
 asian <- function(numsim=10000,Spot =  100,Strike = 95,t = 365,r = 0.06,sigma = 0.2,silent = F) {
-  library(tidyverse)
   GBM <- matrix(NA, nrow = (t), ncol = numsim)
   p <- dplyr::progress_estimated(numsim)
   for(i in 1:numsim){
